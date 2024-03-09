@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const SUMARIZE_URL = "http://localhost:3000/api/summarize";
+const SUMARIZE_URL = "https://pdfsummary-production.up.railway.app/api/summarize";
 
 export default function Home() {
   const [summary, setSummary] = useState("");
